@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
