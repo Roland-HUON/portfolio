@@ -5,178 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Roland HUON, découvrez qui je suis et les projets que j'ai réalisé.">
     <title>Portfolio de Roland HUON</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logopage.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue mon portfolio</h1>
-        <h2>Ici vous découvrirez tous mes projets</h2>
-    </header>
     <main>
-        <nav>
-            <ul><!--création d'une liste non ordonné ( qui va être ici notre menu)-->
-                <li><a href="index.html" class="page">Accueil</a></li><!--lien vers une autre page lorsqu'on clique dessus et liste -->
-                <li class="MenuDeroulant"><a href="#" class="page">Axes</a><!--liste et sous-liste-->
-                    <ul class="sous">
-                        <li><a href="pages/crea.html" class="SousPage">Création & design</a></li>
-                        <li><a href="pages/animation.html" class="SousPage">Animation 3D</a></li>
-                        <li><a href="pages/jv.html" class="SousPage">Jeux Vidéo</a></li>
-                        <li><a href="pages/marketing.html" class="SousPage">Communication Digital & E-Business</a></li>
-                        <li><a href="pages/coding.html" class="SousPage">Coding & Digital Innovation</a></li>
-                    </ul>
-                </li>
-                <li><a href="pages/about.html" class="page">About</a></li>
-                <li><a href="#" class="page">CV</a></li>
-                <ul>
-                    <li><a href="pages/cv_online.html">CV online</a></li>
-                    <li><a href="pages/cv_offline.html">CV offline</a></li>
-                </ul>
-                <li><a href="pages/contact.html" class="page">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="Connect">
-            <div class="ConnectPopup">
-                <h2>Bienvenue sur le portfolio de 
-                    <br>
-                    <strong>Roland HUON</strong>
-                </h2>
-                <p>Vous vous apprêtez à entrez sur son portfolio, voulez-vous continuer?</p>
-                <button class="Inscris">Oui</button>
-                <button class="Connexion">Non</button>
-            </div>
+        <div class="title">
+            <a href="index.html"><h2>Home</h2></a>
+            <a href="pages/about.html"><h2>About me</h2></a>
+            <a href="pages/project.html"><h2>Project</h2></a>
+            <a href="pages/"><h2>Skills</h2></a>
+            <a href="pages/cv_menu.html"><h2>CVs</h2></a>
+            <a href="pages/Contact.html"><h2>Contact</h2></a>
         </div>
-        <div class="Connect">
-            <div class="ConnectPopup">
-                <h2>
-                    Bienvenue être de la destinée,
-                    <br>quelle est votre nom?
-                </h2>
-                <input type="text" placeholder="name/pseudo">
-                <button class="Inscris">Valider</button>
-            </div>
-        </div>
-        <div class="Connect">
-            <div class="ConnectPopup">
-                <h2>
-                    Veuillez rentrer le code secret 
-                    (Embauchez/Moi)
-                </h2>
-                <p>Vous vous apprêtez à entrez sur son portfolio, voulez-vous continuer?</p>
-                <input type="text" placeholder="Identifiant">
-                <input type="text" placeholder="Mot de passe">
-                <button class="Connexion">C'est parti !</button>
-            </div>
-        </div>
-        <div>
-            <img src="" alt="">
-            <div>
-                <h2>Courte présentation</h2>
-                <p>
-                    Actuellement étudiant, en 2ème année Coding & Digital Innovation 
-                    à l'IIM, en voie de devenir développeur full stack
-                </p>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <img src="" alt="">
-                <h3>Développeur web</h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3>Game programmeur</h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3>3D modéliste</h3>
-                <p></p>
-            </div>
-        </div>
-
-        <div>
-            <h2>Quelques exemples de projets que j'ai réalisé</h2>
-        </div>
-
-        <div>
-            <h2>Coding & Digital Innovation</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <button>Voir plus</button>
-        </div>
-
-        <div>
-            <h2>Animation 3D</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <button>Voir plus</button>
-        </div>
-
-        <div>
-            <h2>Jeux vidéo</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <button>Voir plus</button>
-        </div>
-
-        <div>
-            <h2>Création & Design</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <button>Voir plus</button>
-        </div>
-
-        <div>
-            <h2>Communication Digital & E-Business</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <button>Voir plus</button>
-        </div>
-
-        <div>
-            <h2>Coding & Digital Innovation</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <button>Voir plus</button>
-        </div>
+        <div class="img"></div>
+        <!-- boutton flottant -->
+        <button class="floating-btn">
+            <img src="img/post/post.png" alt="post creation">
+            <p class="hidden-words">My home page, basic...</p>
+        </button>
     </main>
-
-    <footer>
-        <h2>Pour me contacter:</h2>
-        <p>Par téléphone au :📞
-            <a href="tel:0779479151">
-                <span>
-                    07.79.47.91.51
-                </span>
-            </a>
-        </p>
-        <p>Par mail :📧
-            <a href="mailto:huonroland91@gamil.com">
-                <span>
-                    huonroland91@gamil.com
-                </span>
-            </a>
-        </p>
-        <p>Mes réseaux sociaux:</p>
-        <a href="https://www.linkedin.com/in/roland-huon/">
-            <img src="" alt="linkedin">
-        </a>
-    </footer>
-    <script src="script.js"></script>
 </body>
 </html>
